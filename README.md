@@ -1,0 +1,1 @@
+# ziskajte-zariadenie.github.io
