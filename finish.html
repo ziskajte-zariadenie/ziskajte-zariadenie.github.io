@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content='Quiz'>
+	<meta property="og:description" content='Quiz'>
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="img/sam.png" >
+	<meta property="og:site_name" content="Quiz / Quiz">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap&subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,500&display=swap&subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/main1.css">
+
+	<meta name="theme-color" content="#23282c" />
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="main">
+			<!-- header -->
+
+			<div class="wrapper step1">
+				<div class="header">
+					<div class="header__top">
+						Chcete vyhrať túto cenu?
+					</div>
+					<p class="header__timer" id="timer">
+						03:30
+					</p>
+					<h3 class="header__title">
+						Poponáhľajte sa! Obmedzená ponuka
+					</h3>
+					<div class="header__img">
+						<img src="img/sam.png" alt="samsung" class="header__mob">
+					</div>
+				</div>
+
+				<!-- form -->
+				<div class="form">
+					<p class="form__info">
+						Potvrďte svoje telefónne číslo
+					</p>
+
+					<input type="tel" class="form__input input-tel" id="phone"  placeholder="+421">
+
+					<div class="form__btn">
+						<a href="#" class="btn" id="smsClick">
+							Pokračovať
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="wrapper step2">
+				<div class="header">
+					<div class="header__top">
+						Chcete vyhrať túto cenu?
+					</div>
+					<h3 class="header__title">
+						Poponáhľajte sa! Obmedzená ponuka
+					</h3>
+					<div class="header__img">
+						<img src="img/sam.png" alt="samsung" class="header__mob">
+					</div>
+				</div>
+				<div class="form">
+					<p class="form__info">
+						Gratulujeme! Čakáme na váš hovor, nepremeškajte svoju šancu!
+					</p>
+
+					<div class="form__btn btn-success">
+					
+						<a href="tel:0900705560" class="btn btn-success hidden" id="call">
+							<img src="./img/icon-call.svg" alt="">
+							<span>Zavolajte teraz!</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer" id="footer">
+			<div class="v1">
+				<p class="footer__text">© 2020. ABCMobile OÜ<br>
+					Harju maakond, Tallinn, Peterburi tee 71-318, 11415, Estonia.<br>
+					Zákaznícky servis: <a href="mailto:abcmobile.sk@silverlines.info">abcmobile.sk@silverlines.info</a>, +421 313215999<br>
+					Pozrite si naše  <a href="./terms.php">Obchodné podmienky</a>  a  <a href="./privacy.php">Zásady ochrany osobných údajov</a><br>
+					Affiliate: mobstra.com
+				</p>
+			</div>
+			<div class="v2">
+				<p class="footer__text">Cena hovoru je 2 EUR/minúta plus poplatky Vášho operátora za prepojenie, hovory sa nahrávajú, iba pre zábavu 18+.<br>
+					Odpovedaním na otázky súhlasíte so zberom údajov.<br>
+					© 2020. ABCMobile OÜ<br>
+					Harju maakond, Tallinn, Peterburi tee 71-318, 11415, Estonia.<br>
+					Zákaznícky servis: <a href="mailto:abcmobile.sk@silverlines.info">abcmobile.sk@silverlines.info</a>, +421 313215999<br>
+					Pozrite si naše <a href="./terms.php">Obchodné podmienky</a> a <a href="./privacy.php">Zásady ochrany osobných údajov</a><br>
+					Affiliate: mobstra.com</p>
+			</div>
+		</footer>
+	</div>
+	<div class="loading">
+		<div class="lds-roller"><div class="roller-container"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.maskedinput.js"></script>
+	<script src="js/main1.js"></script>
+</body>
+</html>
